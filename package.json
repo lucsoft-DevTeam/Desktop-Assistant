@@ -1,0 +1,35 @@
+{
+    "name": "desktop-assistant",
+    "version": "1.0.0",
+    "description": "Desktop Assistant that is connect to HomeSYS",
+    "main": "main.js",
+    "scripts": {
+        "start:only": "webpack-dev-server --quiet",
+        "build:only": "webpack",
+        "start": "electron . --dev",
+        "start:test": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+        "homesys",
+        "webgen"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "dependencies": {
+        "@lucsoft/webgen": "^1.7.1",
+        "@types/qrcode": "^1.3.4",
+        "css-loader": "^3.4.0",
+        "electron": "^8.0.0",
+        "fork-ts-checker-webpack-plugin": "^4.0.0-beta.4",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "qrcode": "^1.4.4",
+        "style-loader": "^1.1.1",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.7.4",
+        "webpack": "^4.41.4",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.1"
+    }
+}
